@@ -1,0 +1,315 @@
+/* reset de css*/
+
+*	{
+	box-sizing: border-box;
+}
+
+body	{
+	margin: 0;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/*estilos*/
+
+/*estilos header*/
+header	{
+	background: #222;
+	color: #FFF
+	padding: 20px 30px;
+}
+
+/*logo*/
+header #logo 	{
+	color: #FFF;
+	text-decoration: none;
+	width: 49%;
+	display: inline-block;
+}
+header #logo img	{
+	width: 50px;
+	margin-right: 8px;
+	margin-left: 50px;
+	vertical-align: middle;
+}
+
+/*main navigation*/
+header #main-navigation	{
+	width: 49%;
+	display: inline-block;
+	text-align: right;
+}
+header #main-navigation ul	{
+	list-style: none;
+	padding: 0;
+}
+header #main-navigation ul li	{
+	display: inline-block;
+}
+header #main-navigation ul li a 	{
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	padding: 15px 10px;
+}
+header #main-navigation ul li a:hover {
+	color: #CC1E4A;
+	background: #FFC906;
+	border-radius: 5px;
+	transition: 1s ease all;
+}
+
+/*footer*/
+footer {
+	background: #222;
+	color: #777;
+	padding: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+footer img	{
+	display: block;
+	width: 80px;
+	margin: 0 auto 10px;
+}
+
+/*main content*/
+
+/*hero section*/
+.hero	{
+	min-height:550px;
+	text-align: center;
+	background: #585;
+	background-image: url(../img/max+team.jpg);
+	background-size: cover;
+
+}
+.hero-content{
+	color: #FFF;
+	padding-top: 130px;
+	line-height: 1;
+
+
+}
+.hero-title	{
+	margin: 0;
+	font-size: 100px;
+	text-shadow: 1.2px 1.2px 0 #888888;
+
+}
+.hero-content p 	{
+	font-size: 50px;
+	margin-bottom: 60px;
+	text-shadow: 1px 1px 0 #888888;
+}
+
+
+/*site section*/
+.site-section	{
+	padding-bottom: 50px;
+	padding-top: 50px;
+
+}
+.site-section-secondary{
+	background: #FFF;
+}
+.section-header	{
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+.site-section-inside{
+	width: 80%;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.section-header h2	{
+	font-size: 30px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #777;
+}
+
+
+/*redes*/
+.redes	{
+	display: inline-block;
+	width: 33%;
+	padding: 20px 30px;
+	line-height: 1;
+	text-align: center;
+
+}
+.redes h5	{
+	margin-top: 0;
+	margin-bottom: 15px;
+	font-size: 20px;
+	color: #999;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 2px;
+	}
+.redes img 	{
+	width: 80px;
+	margin-bottom: 15px;
+	transition: 0.9s;
+}
+.redes img:hover{
+
+	transform: rotate(360deg);
+}
+
+/*bio*/
+.bio{
+	display: inline-block;
+	clear: both;
+	background: #EFEFEF;
+	border-radius: 5px;
+    box-shadow: 0px 0px 15px #888888;
+}
+.bio-contenido{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.bio-contenido h3 {
+	font-size: 28px;
+}
+.bio-contenido p {
+	width: 70%;
+	float: left;
+}
+
+.bio-contenido img {
+	width: 30%;
+ 	float: right;
+ 	border-radius: 10px;
+}
+
+
+
+
+/*nnoticias*/
+.caja-noticia{
+	display: inline-block;
+	width: 33%;
+	padding: 20px 30px;
+
+}
+.noticia-content{
+	padding: -20px;
+
+	margin-bottom: 15px;
+}
+
+.noticia-author img{
+	border-radius: 6px;
+	float: left;
+	width: 100%;
+	margin-right: 25px;
+	margin-bottom: 10px;
+
+}
+.noticia-author h5{
+	font-size: 18px;
+	margin: 0;
+	padding-top: 15px;
+}
+.noticia-author span{
+	color: #999;
+	font-size: 14px;
+}
+
+/*error 404*/
+.error {
+	margin: 0;
+	overflow-y: hidden;
+}
+
+.error404 {
+	height: 86vh;
+	width: 100%;
+	margin: 5rem auto;
+	margin-bottom: 0;
+	position: relative;
+	overflow-x: hidden;
+	text-align: center;
+	color: #CC1E4A;
+}
+
+.error404 h4 {
+	font-size: 50px;
+	margin-bottom: 60px;
+	font-family: 'Exo', sans-serif;
+	font-weight: 900;
+	font-style: italic;
+}
+
+.error404 h5 {
+	font-size: 25px;
+    margin-top: -50px;
+    margin-bottom: 70px;
+    font-family: 'Exo', sans-serif;
+	font-weight: 500;
+	font-style: italic;
+}
+
+.error404 a {
+	border: 3px solid #CC1E4A;
+	border-radius: 10px;
+	padding: 15px 30px;
+	margin-right: 20px;
+	text-decoration: none;
+	font-size: 23px;
+	color: #CC1E4A;
+	
+}
+
+.error404 a:hover {
+	color: #CC1E4A;
+	background: #FFC906;
+	border-radius: 5px;
+	transition: 1s ease all;
+}
+
+.superficie {
+	height: 140px;
+	width:  500%;
+	background-image: url(../img/fondo_error_azul.png) /*fondo del auto*/;
+	display: block;
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+	background-repeat: repeat-x;
+	animation: moveRight 6s linear infinite;
+}
+
+.auto {
+	position: absolute;
+	bottom: 40px;
+	left: 20%;
+	animation: suspension 1s linear infinite;
+
+}
+
+/*animacion*/
+
+@keyframes moveRight {
+	100%{transform: translateX(-2950px);}
+}
+
+@keyframes suspension {
+	100%{
+		transform: translateY(-1px);
+	}
+	50%{
+		transform: translateY(2px);
+	}
+	0%{
+		transform: translateY(-1px);
+
+	}
+}

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width">
+	<title>Max Verstappen Website</title>
+
+	<!--boostrap-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	<!--fancybox css-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+	<!--css-->
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body data-spy="scroll" data-traget="#navbarResponsive">
+
+	<!--Home-->
+
+	<div id="home">
+
+		<!--Barra de navegacion-->
+		
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+			<a class="navbar-brand" href="index.html"><img src="img/logo_max2.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#aboutme">About Max</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#galeria">Galeria</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#news">News</a>
+					</li>
+						<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!--Slider-->
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="7000">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<!--Slide 1-->
+				<div class="carousel-item active" style="background-image: url(img/fondo.jpg);">
+					<div class="carousel-caption text-center">
+						<h1>Welcome</h1>
+						<h3>To the Max Verstappen Website</h3>
+						<a class="btn btn-outline-light btn lg" href="#aboutme">Get Started</a>
+					</div>
+				</div>
+				<!--Slide 2-->
+				<div class="carousel-item " style="background-image: url(img/fondo3.jpg);">
+				</div>
+				<!--Slide 3-->
+				<div class="carousel-item " style="background-image: url(img/fondo.png);">
+				</div>
+			</div>
+			<!--botones slider-->
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+			data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+			data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			</a>
+		</div>
+
+	</div>	
+
+	<!--About me-->
+
+	<div id="aboutme" class="fueradelugar">
+		<div class="col-12 narrow text-center">
+			<h1>About Max</h1>
+			<p class="lead">Max Emilian Verstappen (Dutch pronunciation: [mɑks eːˈmiliɑn vɛrˈstɑpən]; born 30 September 1997) is a Belgian-Dutch racing driver who competes under the Dutch flag in Formula One with Red Bull Racing. Aged 17 years, 166 days, he became the youngest driver to compete in Formula 1 at the 2015 Australian Grand Prix for Scuderia Toro Rosso. He is also the youngest driver to lead a lap during a Formula One Grand Prix, youngest driver to set the fastest lap during a Formula One Grand Prix, youngest driver to score points, youngest driver to secure a podium and youngest Formula One Grand Prix winner in history.<br><br>
+
+			After spending the entire 2015 season with Toro Rosso, he started his 2016 campaign with the Italian team, before being promoted by Red Bull as a replacement for Daniil Kvyat, who took over his seat at Toro Rosso. He won the 2016 Spanish Grand Prix in his debut race for Red Bull at the age of 18, becoming the youngest-ever winner of a Grand Prix and the first racing under the Dutch flag. He is the son of former Formula One driver Jos Verstappen.</p>
+			<a class="btn btn-secondary btn-md" href="Cv/cvmax.html" target="_blank">Max complete CV</a>
+		</div>
+
+	</div>	
+
+		<!--Galeria-->
+
+	<div id="galeria" class="fueradelugar">
+
+			<!--preguntar fluid-->
+			<div class="jumbotron container-fluid">
+
+				<div class="col-12 text-center">
+				<h3 class="heading">Galeria</h3>
+				<div class="heading-underline"></div>
+				</div>
+
+					<!--revisar row-->
+					<div class="row no-padding">
+
+						<div class="col-lg-4 col-md-6">
+
+							<div class="galeria">
+								<a href="img/galeria1.jpg" data-fancybox="fotos" target="_blank">
+									<img src="img/galeria1.jpg">
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="galeria">
+								<a href="img/galeria2.jpg" data-fancybox="fotos" target="_blank">
+									<img src="img/galeria2.jpg">
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="galeria">
+								<a href="img/galeria3.jpg" data-fancybox="fotos" target="_blank">
+									<img src="img/galeria3.jpg">
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="galeria">
+								<a href="img/galeria4.jpg" data-fancybox="fotos" target="_blank">
+									<img src="img/galeria4.jpg">
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="galeria">
+								<a href="img/galeria5.jpg" data-fancybox="fotos" target="_blank">
+									<img src="img/galeria5.jpg">
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="galeria">
+								<a href="img/galeria6.jpg" data-fancybox="fotos" target="_blank">
+									<img src="img/galeria6.jpg">
+								</a>
+							</div>
+						</div>
+					</div>
+
+						<!--Cartel al formulario-->
+						<div id="aboutme" class="fueradelugar">
+							<div class="col-12 narrow2 text-center">
+								<h1>Get your dream race with Max!!</h1>
+								<p class="lead2">Send us the name your favorite race from Formula 1 and comment why are you the number one fan of Max.<br>
+
+								After the 31 of july we will choose next to max one of all the fans submited. He will race next to you in your favorite Formula 1 race track, you will get a free airplane ticket together with 2 free nights in a city hotel. Best of luck.</p>
+								<a class="btn btn-secondary btn-md" href="formulario.html" target="_blank">Let's Go</a>
+							</div>
+
+						</div>	
+
+				</div>
+			</div>		
+
+		<!--News-->
+
+	<div id="news" class="fueradelugar">
+
+			<div class="col-12 text-center">
+				<h5 class="heading">News</h5>
+				<div class="heading-underline"></div>
+			</div>
+
+				<!--cartas boostrap-->
+				<div class="row padding">
+					
+					<div class="col-md-6">
+						<div class="card text-center">
+							<img class="card-img-top" src="img/news1.jpg">
+							<div class="card-body">
+								<h4>Max after his shake down in the RB16: 'Very positive'</h4>
+								<p>Max Verstappen took the RB16 for a spin for the first time today, the car that is the 2020-challenger for Aston Martin Red Bull Racing. The Dutchman had a flawless Wednesday on Silverstone today, which was also an official filming day.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="card text-center">
+							<img class="card-img-top" src="img/news2.jpg">
+							<div class="card-body">
+								<h4>Max reveals his 2020 helmet: 'A fresher look'</h4>
+								<p>
+									Max Verstappen has revealed his 2020 helmet, that he will be using during the coming Formula 1 season, kicking off with the off season testing in Barcelona, Wednesday 19 February. </p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="card text-center">
+							<img class="card-img-top" src="img/news3.jpg">
+							<div class="card-body">
+								<h4>Max second in Porsche TAG Heuer Esports Supercup race Barcelona</h4>
+								<p>Max Verstappen finished second in the second round of the Porsche TAG Heuer Esports Supercup on the Circuit de Barcelona-Catalunya. During the online race of twelve laps, forty of the world’s best sim racers compete for a two hundred-thousand-dollar prize-pool.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="card text-center">
+							<img class="card-img-top" src="img/news4.jpg">
+							<div class="card-body">
+								<h4>Max about cancelled Australian GP: 'Disappointed, but the right decision'</h4>
+								<p>
+									There is disappointment, but just as much understanding for the decision to cancel the Australian Grand Prix because of the prevailing corona virus.</p>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+
+	</div>	
+
+		<!--Contact-->
+
+	<div id="contact" class="fueradelugar">
+
+		<footer>
+			<div class="row justify-content-center">
+
+				<div class="col-md-6">
+					<img src="img/logo_max2.png">
+					<p>This is the oficial Max Verstappen's Website</p>
+					<strong>Contact Me</strong>
+					<p>+32 81 57 45 22 <br>maxverstappen@gmail.com</p>
+
+					<a href="https://www.facebook.com/MaxVerstappen" target="_blank"> <i class="fab fa-facebook-square"></i></a>
+					<a href="https://twitter.com/VerstappenNL" target="_blank"> <i class="fab fa-twitter-square"></i></a>
+					<a href="https://www.instagram.com/maxverstappen1/" target="_blank"> <i class="fab fa-instagram"></i></a>
+				</div>
+
+				<hr class="socket">Pagina web para produccion digital 2 &copy; Augusto Vilanova
+
+			</div>
+		</footer>
+
+	</div>	
+
+	<!--script boostrap-->
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+	<!--fancybox js-->
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+	<!--iconos-->
+	<script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
+
+</body>
+
+</html>
